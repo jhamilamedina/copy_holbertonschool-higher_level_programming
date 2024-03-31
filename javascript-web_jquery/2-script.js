@@ -1,4 +1,4 @@
-// Actualizar el header a rojo cuando haga click en DIV#red_header
+// Agregar la clase red cuando haga click en DIV#red_header
 $(document).ready(function() {
 
   // Agrega un controlador de eventos a red_header
