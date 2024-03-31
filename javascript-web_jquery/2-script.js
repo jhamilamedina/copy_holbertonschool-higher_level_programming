@@ -6,5 +6,6 @@ $(document).ready(function() {
 
     // Selecciona el header a cambia de color a rojo
     $("header").css("color", "#FF0000");
+
   });
 });
