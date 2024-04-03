@@ -7,7 +7,7 @@ $(document).ready(function() {
       // Función que se ejecuta cuando la solicitud es exitosa
       success: function(response) {
           // Accede a la lista de películas en el objeto de respuesta
-          var movies = response.results;
+          let movies = response.results;
           
           // Itera sobre cada película en la lista
           $.each(movies, function(index, movie) {
