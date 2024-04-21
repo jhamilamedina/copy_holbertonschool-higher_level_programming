@@ -1,7 +1,7 @@
 // Obtener el nombre del personaje
 $(document).ready(() => {
   // Utilizamos el metodo $.ajax y hacemos una solicitud GET
-  $.ayax({
+  $.ajax({
     URL: 'https://swapi-api.hbtn.io/api/people/5/?format=json',
     method: 'GET',
     success(response) { // se ejecutará si la solicitud es exitosa
